@@ -1,0 +1,28 @@
+    1  git config --global user.name 'Weaver'
+    2  git config --global user.email 'weaver.ast@gmail.com'
+    3  git clone https://github.com/weaver-ast/HW_10.git
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  nano .gitignore
+    7  git status
+    8  git add .
+    9  git commit -m 'Task1'
+   10  touch main_test.txt
+   11  git add .
+   12  git commit -m 'Task2'
+   13  git checkout -b Develop
+   14  git branch
+   15  touch develop_test.txt
+   16  git add .
+   17  git commit -m 'Task3_4'
+   18  nano develop_test.txt
+   19  git status
+   20  git add .
+   21  git commit -m 'Task3_8'
+   22  git checkout Develop
+   23  git checkout main
+   24  git branch
+   25  merge Develop
+   26  git merge Develop
+   27  git log
+   28  history > command_list.csv
